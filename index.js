@@ -102,10 +102,6 @@ module.exports = {
             true,
             "always"
         ],
-
-        "prefer-while": [
-            true
-        ],
         "semicolon": [
             true,
             "always"
@@ -128,11 +124,12 @@ module.exports = {
             "double",
             "avoid-escape"
         ],
-        "unnecessary-bind": true,
         "prefer-template": true,
         "prefer-method-signature": true,
         "no-conditional-assignment": [true],
-        "no-constant-condition": true,
+        "no-constant-condition": [true, {
+            checkLoops: false
+        }],
         "no-duplicate-switch-case": true,
         "no-empty-character-class": true,
         "no-ex-assign": true,
