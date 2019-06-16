@@ -55,7 +55,6 @@ module.exports = {
         "no-duplicate-imports": true,
         "class-name": true,
         "new-parens": true,
-        "no-return-await": true,
         "no-inferrable-types": true,
         "promise-function-async": {
             "severity": "warn"
@@ -126,7 +125,6 @@ module.exports = {
         ],
         "prefer-template": true,
         "prefer-method-signature": true,
-        "no-conditional-assignment": [true],
         "no-constant-condition": [true, {
             checkLoops: false
         }],
