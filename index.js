@@ -12,6 +12,7 @@ module.exports = {
             "spaces",
             4
         ],
+        "check-space": [true, "check-space" ,{ "ignore-words": ["TODO", "HACK"]}],
         "adjacent-overload-signatures": true,
         "curly": [
             true,
