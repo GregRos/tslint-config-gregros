@@ -12,7 +12,7 @@ module.exports = {
             "spaces",
             4
         ],
-        "check-space": [true, "check-space" ,{ "ignore-words": ["TODO", "HACK"]}],
+        "comment-format": [true, "check-space" ,{ "ignore-words": ["TODO", "HACK"]}],
         "adjacent-overload-signatures": true,
         "curly": [
             true,
@@ -129,6 +129,7 @@ module.exports = {
         "no-constant-condition": [true, {
             checkLoops: false
         }],
+	    "linebreak-style": [true, "LF"],
         "no-duplicate-switch-case": true,
         "no-empty-character-class": true,
         "no-ex-assign": true,
