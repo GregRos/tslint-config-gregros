@@ -1,6 +1,4 @@
-const tslint = require("tslint");
-
-/** @type { IConfigurationFile}*/
+/** @type {import("tslint").Configuration} */
 module.exports = {
     "extends": [
         "tslint-consistent-codestyle",
@@ -36,7 +34,6 @@ module.exports = {
             true,
             "allow-null-check"
         ],
-        "no-void-expression": true,
         "no-string-throw": true,
         "no-sparse-arrays": true,
         "no-invalid-template-strings": true,
@@ -57,9 +54,6 @@ module.exports = {
         "class-name": true,
         "new-parens": true,
         "no-inferrable-types": true,
-        "promise-function-async": {
-            "severity": "warn"
-        },
         "arrow-return-shorthand": true,
         "encoding": true,
         "file-name-casing": {
@@ -115,9 +109,6 @@ module.exports = {
                 "constructor": "never",
                 "anonymous": "never"
             }
-        ],
-        "return-undefined": [
-            true
         ],
         "quotemark": [
             true,
