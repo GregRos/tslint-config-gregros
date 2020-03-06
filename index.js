@@ -60,7 +60,6 @@ module.exports = {
             "options": "kebab-case"
         },
         "interface-over-type-literal": true,
-        "match-default-export-name": true,
         "no-angle-bracket-type-assertion": true,
         "no-consecutive-blank-lines": [
             true,
@@ -71,7 +70,6 @@ module.exports = {
             "as-needed"
         ],
         "no-internal-module": true,
-        "prefer-object-spread": true,
         "typedef-whitespace": [
             true,
             {
